@@ -1,0 +1,174 @@
+body{
+  font-family: "Montserrat";
+
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  line-height:1.5;
+}
+h3{
+  font-family: "Montserrat-Bold-Black";
+  font-weight: bolder;
+  font-size:2rem;
+  margin-top:1.5px;
+}
+
+p{
+  color:#8f8f8f;
+  font-family:"Oswald";
+  font-size:1.5rem;
+  font-weight: lighter;
+}
+
+.title-heading{
+  font-family:"Montserrat-Black-Bold";
+  font-size: 4.5rem;
+  line-height: 1.5;
+
+}
+
+
+.container-fluid{
+  padding: 3% 15% 11%;
+
+}
+
+
+
+.navbar{
+  padding:0 0 3.5rem;
+}
+.navbar-brand{
+  font-family:"Montserrat";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0 18px;
+
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family:"Montserrat-light";
+}
+
+.download-bt{
+  margin:10% 6% 5% 0;
+}
+
+#title{
+  background-color:#408E91;
+  color:#fff;
+}
+
+.titleimg{
+  width:30%;
+  transform: rotate(25deg);
+  position:absolute;
+
+
+
+}
+/* .iconn{
+  margin:2% 5% 2% 5%;
+
+} */
+
+
+#features{
+  padding: 3% 12%;
+  background-color: #fff;
+  position:relative;
+  /* z-index:1; */
+}
+.f-box{
+  text-align: center;
+  padding: 5%;
+
+}
+.iconn{
+  margin-top: 2rem;
+}
+.iconn:hover{
+  color:#6b98e6;
+}
+
+#testimonials{
+  padding: 5% 10%;
+  text-align: center;
+  background-color:#408E91;
+  color:#ffff;
+
+}
+
+.test-img{
+  width:19%;
+  border-radius:100%;
+  margin: 20px;
+}
+.t-img{
+  width:15%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 5% 12%;
+}
+
+#press{
+  background-color:#408E91;
+  text-align:center;
+  padding-bottom:3%;
+
+}
+.p-logo{
+  width: 13%;
+  margin: 5px 30px 50px;
+}
+
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.p-col{
+  padding: 2% 2%;
+}
+
+@media (max-width:1035px){
+  .titleimg{
+    position:static;
+    width:60%;
+    transform:rotate(0);
+  }
+}
+
+#cta{
+  background-color: #408E91;
+  color:#fff;
+  padding: 2% 15%;
+  text-align: center;
+
+}
+
+.ctaf{
+  font-family: "Montserrat-Black-Bold";
+  font-size: 4rem;
+
+  /* line-height:1.5; */
+}
+.download-bt1{
+  margin:5% 6% 5% 0;
+}
+
+#footer{
+  padding: 3% 12%;
+  text-align:center;
+
+}
+.socials{
+  margin: 5px 20px;
+
+}
